@@ -24,10 +24,10 @@ public class Demo01Exception {
 
     public static void main(String[] args){
         String a="}";
-        System.out.println(addBinary(a));
+        //System.out.println(addBinary(a));
 
     }
-    private static boolean addBinary(String a) {
+    /*private static boolean addBinary(String a) {
         Stack<Character> s=new Stack<>();
         for(int i=0;i<a.length();i++){
             char c=a.charAt(i);
@@ -44,5 +44,5 @@ public class Demo01Exception {
             return true;
         }
             return false;
-    }
+    }*/
 }
