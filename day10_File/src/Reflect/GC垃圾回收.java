@@ -10,5 +10,5 @@ package Reflect;
  * 7.可以通过 System.gc() 或 Runtime.getRuntime().gc() 通知系统进行垃圾回收，会有一些效果，但系统是否进行垃圾回收依然不确定
  * 8.不要主动调用对象的 finalize() 方法，应该交给垃圾回收机制调用
  */
-public class GC {
+public class GC垃圾回收 {
 }
