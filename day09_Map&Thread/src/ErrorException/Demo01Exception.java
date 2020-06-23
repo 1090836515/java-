@@ -1,5 +1,7 @@
 package ErrorException;
 
+import java.util.Stack;
+
 /**
  * Throwable下继承了Error与Exception两个子类，Error属于严重的错误，程序不能处理；Exception错误程序可以处理（编译期异常）
  * 2.Exception：编译期异常
@@ -19,4 +21,28 @@ package ErrorException;
  *      执行到 throw 语句则后面的语句块不再执行
  */
 public class Demo01Exception {
+
+    public static void main(String[] args){
+        String a="}";
+        System.out.println(addBinary(a));
+
+    }
+    private static boolean addBinary(String a) {
+        Stack<Character> s=new Stack<>();
+        for(int i=0;i<a.length();i++){
+            char c=a.charAt(i);
+            switch (c){
+                case '[':s.push('[');break;
+                case '{':s.push('{');break;
+                case '(':s.push('(');break;
+                case ']':if(!s.empty()&&s.peek()=='['){ s.pop();break;} else {return false;}
+                case '}':if(!s.empty()&&s.peek()=='{') {s.pop();break;} else {return false;}
+                case ')':if(!s.empty()&&s.peek()=='(') {s.pop();break;} else {return false;}
+            }
+        }
+        if(s.empty()){
+            return true;
+        }
+            return false;
+    }
 }
