@@ -1,10 +1,26 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <project version="4">
   <component name="ChangeListManager">
-    <list default="true" id="360c970c-b66b-40ac-85a4-7f4525469b0d" name="Default" comment="更新一些内容">
-      <change afterPath="$PROJECT_DIR$/day10_File/src/Reflect/GC.java" afterDir="false" />
+    <list default="true" id="360c970c-b66b-40ac-85a4-7f4525469b0d" name="Default" comment="">
+      <change afterPath="$PROJECT_DIR$/day05_array/src/重载.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ErrorException/Demo01Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ErrorException/Demo01Exception.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day05_array/src/Demo01Math.java" beforeDir="false" afterPath="$PROJECT_DIR$/day05_array/src/Demo01Math.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day06_object/src/ObjectDemo01/Demo01Integer.java" beforeDir="false" afterPath="$PROJECT_DIR$/day06_object/src/ObjectDemo01/Demo01Integer.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_character/src/Super/Demo01Static.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_character/src/Super/Demo01Static.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_character/src/Super/Demo01String.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_character/src/Super/Demo01String.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_character/src/Super/Demo01Super.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_character/src/Super/Demo01Super.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_character/src/array/Demo01Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_character/src/array/Demo01Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day07_character/src/array/Demo02Array.java" beforeDir="false" afterPath="$PROJECT_DIR$/day07_character/src/array/Demo02Array.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08_extends/src/Abstract/AbstractInterface.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_extends/src/Abstract/AbstractInterface.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08_extends/src/Final/Demo01Final.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_extends/src/Final/Demo01Final.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08_extends/src/InnerClass/Body.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_extends/src/InnerClass/Body.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08_extends/src/Interface/MyInterfaceAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_extends/src/Interface/MyInterfaceAbstract.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day08_extends/src/StringBuilder/Demo01stringBuilder.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_extends/src/StringBuilder/Demo01stringBuilder.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/Demo01Ticket.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/Demo01Ticket.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_File/src/Reflect/GC垃圾回收.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_File/src/Reflect/GC垃圾回收.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_File/src/Reflect/ReflectDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_File/src/Reflect/ReflectDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day10_File/src/Stream/Demo01Stream.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_File/src/Stream/Demo01Stream.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day12_html_css_javascript/javascript-01-基础语法.html" beforeDir="false" afterPath="$PROJECT_DIR$/day12_html_css_javascript/javascript-01-基础语法.html" afterDir="false" />
     </list>
     <option name="EXCLUDED_CONVERTED_TO_IGNORED" value="true" />
     <option name="TRACKING_ENABLED" value="true" />
@@ -15,88 +31,95 @@
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file leaf-file-name="Body.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day08_extends/src/InnerClass/Body.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="255">
+              <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo01ArrayList.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day06_object/src/APIDemo02/Demo01ArrayList.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="232">
+              <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo01Super.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day07_character/src/Super/Demo01Super.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="315">
+              <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+              <folding>
+                <element signature="imports" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file leaf-file-name="Demo01stringBuilder.java" pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/day08_extends/src/StringBuilder/Demo01stringBuilder.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
+              <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="Fu.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day08_extends/src/Super/Fu.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="30">
-              <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo01toString.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day08_extends/src/toStringEquals/Demo01toString.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="315">
-              <caret line="21" column="40" selection-start-line="21" selection-start-column="40" selection-end-line="21" selection-end-column="40" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo01System.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day08_extends/src/System/Demo01System.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="120">
-              <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="Demo01Exception.java" pinned="false" current-in-tab="true">
-        <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/ErrorException/Demo01Exception.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="127">
-              <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectDemo01.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/ReflectDemo01.java">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="510">
-              <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file leaf-file-name="ReflectTest.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/ReflectTest.java">
+      <file leaf-file-name="Demo01String.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day07_character/src/Super/Demo01String.java">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="255">
-              <caret line="20" column="45" selection-start-line="20" selection-start-column="45" selection-end-line="20" selection-end-column="45" />
+              <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="GC.java" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/GC.java">
+      <file leaf-file-name="Demo01PrintStream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day10_File/src/IO/Demo01PrintStream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="180">
+            <state relative-caret-position="155">
               <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
             </state>
           </provider>
         </entry>
       </file>
-      <file leaf-file-name="pro.properties" pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/day10_File/src/pro.properties">
-          <provider selected="true" editor-type-id="text-editor" />
+      <file leaf-file-name="Demo01Printable.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day10_File/src/Stream/Demo01Printable.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="135">
+              <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+            </state>
+          </provider>
         </entry>
       </file>
-      <file leaf-file-name="StringBuilder.java" pinned="false" current-in-tab="false">
-        <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/lang/StringBuilder.java">
+      <file leaf-file-name="Demo01Stream.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day10_File/src/Stream/Demo01Stream.java">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1530">
-              <caret line="131" column="5" selection-start-line="131" selection-start-column="5" selection-end-line="131" selection-end-column="5" />
+            <state relative-caret-position="735">
+              <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="Demo01.java" pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/day08_extends/src/FanXing/Demo01.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="260">
+              <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file leaf-file-name="MyClass.java" pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/day08_extends/src/FanXing/MyClass.java">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="105">
+              <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
             </state>
           </provider>
         </entry>
@@ -127,14 +150,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/day12_html_css_javascript/javascript-01-基础语法.html" />
-        <option value="$PROJECT_DIR$/day12_html_css_javascript/javascript-03-轮播图案例.html" />
-        <option value="$PROJECT_DIR$/day12_html_css_javascript/javascript-04-DOM.html" />
-        <option value="$PROJECT_DIR$/day12_html_css_javascript/javascript-05-动态表格案例.html" />
-        <option value="$PROJECT_DIR$/day12_html_css_javascript/javascript-06-HTML_DOM.html" />
-        <option value="$PROJECT_DIR$/day12_html_css_javascript/javascript-07-表格全选案例.html" />
-        <option value="$PROJECT_DIR$/day12_html_css_javascript/javascript-02-BOM+DOM(事件).html" />
-        <option value="$PROJECT_DIR$/day12_html_css_javascript/javascript-08-表单验证案例.html" />
         <option value="$PROJECT_DIR$/day12_html_css_javascript/bootstrap-01.html" />
         <option value="$PROJECT_DIR$/day12_html_css_javascript/bootstrap/bootstrap-01.html" />
         <option value="$PROJECT_DIR$/day12_html_css_javascript/bootstrap/bootstrap-02-响应式布局栅格系统.html" />
@@ -144,7 +159,6 @@
         <option value="$PROJECT_DIR$/day12_html_css_javascript/bootstrap/bootstrap-01-快速入门.html" />
         <option value="$PROJECT_DIR$/day12_html_css_javascript/bootstrap/bootstrap-06-旅游网案例.html" />
         <option value="$PROJECT_DIR$/day12_html_css_javascript/web服务器基础知识了解.html" />
-        <option value="$PROJECT_DIR$/day07_character/src/array/Demo02Array.java" />
         <option value="$PROJECT_DIR$/day10_File/src/IO/Demo01ReaderWriter.java" />
         <option value="$PROJECT_DIR$/day10_File/src/IO/Demo01InOutPutStream.java" />
         <option value="$PROJECT_DIR$/day10_File/src/IO/BufferedInOutputStream.java" />
@@ -157,27 +171,36 @@
         <option value="$PROJECT_DIR$/day11_JDBC/src/jdbc/util/Solution.java" />
         <option value="$PROJECT_DIR$/day11_JDBC/src/jdbc/util/TreeNode.java" />
         <option value="$PROJECT_DIR$/day08_extends/src/toStringEquals/Demo01toString.java" />
-        <option value="$PROJECT_DIR$/day06_object/src/ObjectDemo01/Demo01Integer.java" />
-        <option value="$PROJECT_DIR$/day08_extends/src/Final/Demo01Final.java" />
         <option value="$PROJECT_DIR$/day06_object/src/APIDemo02/test.java" />
-        <option value="$PROJECT_DIR$/day05_array/src/Demo01Math.java" />
-        <option value="$PROJECT_DIR$/day07_character/src/Super/Demo01String.java" />
-        <option value="$PROJECT_DIR$/day08_extends/src/Abstract/AbstractInterface.java" />
         <option value="$PROJECT_DIR$/day08_extends/src/Abstract/Dog2Ha.java" />
         <option value="$PROJECT_DIR$/day08_extends/src/Abstract/DemoMain.java" />
         <option value="$PROJECT_DIR$/day08_extends/src/Abstract/Dog.java" />
         <option value="$PROJECT_DIR$/day08_extends/src/InnerClass/MyInterface.java" />
-        <option value="$PROJECT_DIR$/day08_extends/src/InnerClass/Body.java" />
         <option value="$PROJECT_DIR$/day10_File/src/IO/ObjectInOutputStream.java" />
-        <option value="$PROJECT_DIR$/day07_character/src/array/Demo01Array.java" />
         <option value="$PROJECT_DIR$/day08_extends/src/FanXing/Demo01.java" />
         <option value="$PROJECT_DIR$/day08_extends/src/FanXing/MyClass.java" />
-        <option value="$PROJECT_DIR$/day08_extends/src/Abstract/Animal.java" />
-        <option value="$PROJECT_DIR$/day07_character/src/Super/Demo01Super.java" />
-        <option value="$PROJECT_DIR$/day07_character/src/Super/Demo01Static.java" />
         <option value="$PROJECT_DIR$/day08_extends/src/ListSetIterator/Demo01Collection.java" />
-        <option value="$PROJECT_DIR$/day10_File/src/Reflect/GC垃圾回收.java" />
         <option value="$PROJECT_DIR$/day09_Map&amp;Thread/src/ErrorException/Demo01Exception.java" />
+        <option value="$PROJECT_DIR$/day10_File/src/Reflect/GC.java" />
+        <option value="$PROJECT_DIR$/day08_extends/src/Interface/MyInterfaceAbstract.java" />
+        <option value="$PROJECT_DIR$/day10_File/src/Reflect/GC垃圾回收.java" />
+        <option value="$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/Demo01Ticket.java" />
+        <option value="$PROJECT_DIR$/day08_extends/src/InnerClass/Body.java" />
+        <option value="$PROJECT_DIR$/day07_character/src/array/Demo01Array.java" />
+        <option value="$PROJECT_DIR$/day08_extends/src/Abstract/Animal.java" />
+        <option value="$PROJECT_DIR$/day06_object/src/ObjectDemo01/Demo01Integer.java" />
+        <option value="$PROJECT_DIR$/day10_File/src/Reflect/ReflectDemo01.java" />
+        <option value="$PROJECT_DIR$/day08_extends/src/Final/Demo01Final.java" />
+        <option value="$PROJECT_DIR$/day12_html_css_javascript/javascript-01-基础语法.html" />
+        <option value="$PROJECT_DIR$/day07_character/src/Super/Demo01Static.java" />
+        <option value="$PROJECT_DIR$/day05_array/src/Demo01Math.java" />
+        <option value="$PROJECT_DIR$/day05_array/src/重载.java" />
+        <option value="$PROJECT_DIR$/day07_character/src/array/Demo02Array.java" />
+        <option value="$PROJECT_DIR$/day08_extends/src/Abstract/AbstractInterface.java" />
+        <option value="$PROJECT_DIR$/day07_character/src/Super/Demo01Super.java" />
+        <option value="$PROJECT_DIR$/day08_extends/src/StringBuilder/Demo01stringBuilder.java" />
+        <option value="$PROJECT_DIR$/day07_character/src/Super/Demo01String.java" />
+        <option value="$PROJECT_DIR$/day10_File/src/Stream/Demo01Stream.java" />
       </list>
     </option>
   </component>
@@ -214,6 +237,7 @@
       <foldersAlwaysOnTop value="true" />
     </navigator>
     <panes>
+      <pane id="PackagesPane" />
       <pane id="AndroidView" />
       <pane id="ProjectPane">
         <subPane>
@@ -283,6 +307,12 @@
               <item name="day08_extends" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Abstract" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day08_extends" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Date" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
@@ -363,6 +393,12 @@
               <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
               <item name="day09_Map&amp;Thread" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Lambda" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day09_Map&amp;Thread" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Thread" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
@@ -412,6 +448,12 @@
               <item name="day10_File" type="462c0819:PsiDirectoryNode" />
               <item name="src" type="462c0819:PsiDirectoryNode" />
               <item name="Reflect" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
+              <item name="day10_File" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="Stream" type="462c0819:PsiDirectoryNode" />
             </path>
             <path>
               <item name="basic-code" type="b2602c69:ProjectViewProjectNode" />
@@ -470,7 +512,6 @@
           <select />
         </subPane>
       </pane>
-      <pane id="PackagesPane" />
       <pane id="Scope" />
     </panes>
   </component>
@@ -520,7 +561,7 @@
       </list>
     </option>
   </component>
-  <component name="RunManager" selected="Application.Demo01Exception">
+  <component name="RunManager" selected="Application.Demo01Stream">
     <configuration name="Demo01Exception" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="ErrorException.Demo01Exception" />
       <module name="day09_Map&amp;Thread" />
@@ -532,46 +573,52 @@
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Demo01Math" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Demo01Math" />
-      <module name="day08_Extends" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="DemoMain" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Abstract.DemoMain" />
-      <module name="day08_extends" />
+    <configuration name="Demo01Integer" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="ObjectDemo01.Demo01Integer" />
+      <module name="day06_object" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Abstract.*" />
+          <option name="PATTERN" value="ObjectDemo01.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
-    <configuration name="Solution" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="jdbc.util.Solution" />
-      <module name="day11_JDBC" />
+    <configuration name="Demo01Stream" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Stream.Demo01Stream" />
+      <module name="day10_File" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="jdbc.util.*" />
+          <option name="PATTERN" value="Stream.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo01Super" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="Super.Demo01Super" />
+      <module name="day07_character" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="Super.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+    </configuration>
+    <configuration name="Demo02Array" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="array.Demo02Array" />
+      <module name="day07_character" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="array.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
     </configuration>
     <configuration default="true" type="Application" factoryName="Application">
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-    </configuration>
-    <configuration name="test" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="APIDemo02.test" />
-      <module name="day06_object" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="APIDemo02.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
     </configuration>
     <configuration default="true" type="JUnit" factoryName="JUnit">
       <option name="ALTERNATIVE_JRE_PATH_ENABLED" value="false" />
@@ -671,19 +718,19 @@
       </ConfigurationWrapper>
     </configuration>
     <list>
-      <item itemvalue="Application.Solution" />
-      <item itemvalue="Application.Demo01Math" />
-      <item itemvalue="Application.test" />
-      <item itemvalue="Application.DemoMain" />
       <item itemvalue="Application.Demo01Exception" />
+      <item itemvalue="Application.Demo02Array" />
+      <item itemvalue="Application.Demo01Integer" />
+      <item itemvalue="Application.Demo01Super" />
+      <item itemvalue="Application.Demo01Stream" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.Demo01Stream" />
+        <item itemvalue="Application.Demo01Super" />
+        <item itemvalue="Application.Demo01Integer" />
+        <item itemvalue="Application.Demo02Array" />
         <item itemvalue="Application.Demo01Exception" />
-        <item itemvalue="Application.DemoMain" />
-        <item itemvalue="Application.test" />
-        <item itemvalue="Application.Demo01Math" />
-        <item itemvalue="Application.Solution" />
       </list>
     </recent_temporary>
   </component>
@@ -748,8 +795,31 @@
       <workItem from="1592645553414" duration="698000" />
       <workItem from="1592707401967" duration="9208000" />
       <workItem from="1592897403750" duration="7972000" />
-      <workItem from="1592924852161" duration="256000" />
+      <workItem from="1592924852161" duration="2258000" />
+      <workItem from="1592961779517" duration="11545000" />
     </task>
+    <task id="LOCAL-00001" summary="更新一些内容">
+      <created>1592925170424</created>
+      <option name="number" value="00001" />
+      <option name="presentableId" value="LOCAL-00001" />
+      <option name="project" value="LOCAL" />
+      <updated>1592925170424</updated>
+    </task>
+    <task id="LOCAL-00002" summary="更新一些内容">
+      <created>1592925219896</created>
+      <option name="number" value="00002" />
+      <option name="presentableId" value="LOCAL-00002" />
+      <option name="project" value="LOCAL" />
+      <updated>1592925219896</updated>
+    </task>
+    <task id="LOCAL-00003" summary="更新一些内容">
+      <created>1592925413496</created>
+      <option name="number" value="00003" />
+      <option name="presentableId" value="LOCAL-00003" />
+      <option name="project" value="LOCAL" />
+      <updated>1592925413496</updated>
+    </task>
+    <option name="localTasksCounter" value="4" />
     <servers />
   </component>
   <component name="TestHistory">
@@ -785,7 +855,7 @@
     </history-entry>
   </component>
   <component name="TimeTrackingManager">
-    <option name="totallyTimeSpent" value="296621000" />
+    <option name="totallyTimeSpent" value="310168000" />
   </component>
   <component name="ToolWindowManager">
     <frame x="-4" y="1" width="1378" height="779" extended-state="0" />
@@ -793,20 +863,20 @@
     <layout>
       <window_info anchor="right" id="Palette" order="3" />
       <window_info anchor="bottom" id="TODO" order="6" />
-      <window_info active="true" anchor="bottom" id="Messages" order="7" visible="true" weight="0.32761312" />
+      <window_info anchor="bottom" id="Messages" order="7" weight="0.32761312" />
       <window_info anchor="right" id="Palette&#9;" order="3" />
       <window_info id="Image Layers" order="2" />
       <window_info anchor="right" id="Capture Analysis" order="3" />
       <window_info anchor="bottom" id="Event Log" order="7" side_tool="true" />
       <window_info anchor="right" id="Maven Projects" order="3" />
       <window_info anchor="bottom" id="Database Changes" order="7" show_stripe_button="false" />
-      <window_info anchor="bottom" id="Version Control" order="7" />
-      <window_info anchor="bottom" id="Run" order="2" weight="0.24960998" />
+      <window_info anchor="bottom" id="Version Control" order="7" weight="0.32917318" />
+      <window_info anchor="bottom" id="Run" order="2" visible="true" weight="0.24960998" />
       <window_info anchor="bottom" id="Spring" order="8" />
       <window_info anchor="bottom" id="Terminal" order="7" />
       <window_info id="Capture Tool" order="2" />
       <window_info id="Designer" order="2" />
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.30349013" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.3080425" />
       <window_info anchor="right" id="Database" order="3" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info anchor="right" id="Ant Build" order="1" weight="0.25" />
@@ -845,270 +915,10 @@
       <breakpoints-dialog>
         <breakpoints-dialog />
       </breakpoints-dialog>
-      <option name="time" value="38" />
+      <option name="time" value="39" />
     </breakpoint-manager>
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/day11_JDBC/src/jdbc/util/TreeNode.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="34" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day11_JDBC/src/jdbc/util/Solution.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="16" selection-start-line="2" selection-start-column="16" selection-end-line="2" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07_character/src/array/Demo02Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06_object/src/ObjectDemo01/Demo01Integer.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="49" lean-forward="true" selection-start-line="9" selection-start-column="49" selection-end-line="9" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/Final/Demo01Final.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="5" selection-start-line="9" selection-start-column="5" selection-end-line="9" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06_object/src/APIDemo02/test.java" />
-    <entry file="file://$PROJECT_DIR$/day05_array/src/Demo01Math.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="315">
-          <caret line="27" column="53" selection-start-line="27" selection-start-column="53" selection-end-line="27" selection-end-column="53" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/ErrorException/RegisterException.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/InnerClass/Demo01InnerClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="14" column="17" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/InnerClass/MyInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="8" selection-start-line="4" selection-start-column="8" selection-end-line="4" selection-end-column="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/InnerClass/Body.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="52" lean-forward="true" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day10_File/src/IO/ObjectInOutputStream.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="330">
-          <caret line="28" column="41" lean-forward="true" selection-start-line="28" selection-start-column="41" selection-end-line="28" selection-end-column="41" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07_character/src/array/Demo01Array.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="225">
-          <caret line="15" column="39" selection-start-line="15" selection-start-column="39" selection-end-line="15" selection-end-column="39" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/FanXing/Demo01.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="37" lean-forward="true" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/FanXing/MyClass.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="30" selection-start-line="4" selection-start-column="30" selection-end-line="4" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/Abstract/AbstractInterface.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="38" lean-forward="true" selection-start-line="9" selection-start-column="38" selection-end-line="9" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/Abstract/Dog2Ha.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="33" lean-forward="true" selection-start-line="2" selection-start-column="33" selection-end-line="2" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/Abstract/Dog.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="45">
-          <caret line="3" column="6" selection-start-line="3" selection-start-column="6" selection-end-line="3" selection-end-column="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/Abstract/DemoMain.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="12" column="18" lean-forward="true" selection-start-line="12" selection-start-column="18" selection-end-line="12" selection-end-column="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/Abstract/Animal.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="50" selection-start-line="17" selection-start-column="50" selection-end-line="17" selection-end-column="50" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07_character/src/Super/Demo01String.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="29" column="33" lean-forward="true" selection-start-line="29" selection-start-column="33" selection-end-line="29" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07_character/src/Super/Demo01Super.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="60">
-          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day07_character/src/Super/Demo01Static.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="27" selection-start-line="17" selection-start-column="27" selection-end-line="17" selection-end-column="27" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/ListSetIterator/Demo01Collection.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="296">
-          <caret line="44" column="9" selection-start-line="44" selection-start-column="9" selection-end-line="44" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/ListSetIterator/Demo01Collections.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="207">
-          <caret line="24" column="21" lean-forward="true" selection-start-line="24" selection-start-column="21" selection-end-line="24" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/MultiField/Demo01MultiField.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="135">
-          <caret line="9" column="40" selection-start-line="9" selection-start-column="40" selection-end-line="9" selection-end-column="40" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/RunnableImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="20" column="44" lean-forward="true" selection-start-line="20" selection-start-column="44" selection-end-line="20" selection-end-column="44" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/RunnableImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="240">
-          <caret line="16" column="25" lean-forward="true" selection-start-line="16" selection-start-column="25" selection-end-line="16" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/RunnableImpl1.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/RunnableImpl2.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="255">
-          <caret line="17" column="5" lean-forward="true" selection-start-line="17" selection-start-column="5" selection-end-line="17" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/RunnableImpl3.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="300">
-          <caret line="21" column="21" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/Demo01Ticket.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/ThreadPool/Demo01ThreadPool.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
-          <caret line="14" column="38" selection-start-line="14" selection-start-column="38" selection-end-line="14" selection-end-column="38" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/ThreadPool/RunnableImpl.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="8" selection-start-line="8" selection-end-line="8" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Demo01InnerClassThread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="195">
-          <caret line="13" column="37" selection-start-line="13" selection-start-column="37" selection-end-line="13" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Demo01Runnable.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="75">
-          <caret line="5" column="33" selection-start-line="5" selection-start-column="33" selection-end-line="5" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Demo01Sleep.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="30">
-          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Demo01Thread.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="6" column="52" selection-start-line="6" selection-start-column="52" selection-end-line="6" selection-end-column="52" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/MyThread.java">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="90">
@@ -1120,20 +930,6 @@
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="120">
           <caret line="10" lean-forward="true" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day06_object/src/APIDemo02/Demo01ArrayList.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="232">
-          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/day08_extends/src/StringBuilder/Demo01stringBuilder.java">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="120">
-          <caret line="8" column="13" selection-start-line="8" selection-start-column="13" selection-end-line="8" selection-end-column="13" />
         </state>
       </provider>
     </entry>
@@ -1165,15 +961,127 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/ReflectDemo01.java">
+    <entry file="file://$PROJECT_DIR$/day10_File/src/pro.properties">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/ErrorException/Demo01Exception.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
-          <caret line="38" column="39" selection-start-line="38" selection-start-column="39" selection-end-line="38" selection-end-column="39" />
+        <state relative-caret-position="300">
+          <caret line="20" column="31" selection-start-line="20" selection-start-column="31" selection-end-line="20" selection-end-column="31" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_File/src/pro.properties">
+    <entry file="file://$PROJECT_DIR$/day07_character/day07_character.iml">
       <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/GC垃圾回收.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="21" lean-forward="true" selection-start-line="13" selection-start-column="21" selection-end-line="13" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/DualPivotQuicksort.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="74">
+          <caret line="204" lean-forward="true" selection-start-line="204" selection-end-line="204" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="jar://C:/Program Files/Java/jdk1.8.0_221/src.zip!/java/util/Arrays.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="141">
+          <caret line="143" column="29" lean-forward="true" selection-start-line="143" selection-start-column="29" selection-end-line="143" selection-end-column="29" />
+          <folding>
+            <element signature="e#5027#5028#0" expanded="true" />
+            <element signature="e#5098#5099#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/InnerClass/Demo01InnerClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="14" column="17" lean-forward="true" selection-start-line="14" selection-start-column="17" selection-end-line="14" selection-end-column="17" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/Demo01Ticket.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="9" column="45" lean-forward="true" selection-start-line="9" selection-start-column="45" selection-end-line="9" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/RunnableImpl.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="240">
+          <caret line="16" column="29" lean-forward="true" selection-start-line="16" selection-start-column="29" selection-end-line="16" selection-end-column="29" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/RunnableImpl1.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="19" column="21" lean-forward="true" selection-start-line="19" selection-start-column="21" selection-end-line="19" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/RunnableImpl2.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="27" column="20" lean-forward="true" selection-start-line="27" selection-start-column="20" selection-end-line="27" selection-end-column="20" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Synchronized/RunnableImpl3.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="21" column="21" lean-forward="true" selection-start-line="21" selection-start-column="21" selection-end-line="21" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/Interface/Demo01Interface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/Interface/MyInterfaceAbstract.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="150">
+          <caret line="10" column="42" lean-forward="true" selection-start-line="10" selection-start-column="42" selection-end-line="10" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/Abstract/Animal.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="300">
+          <caret line="20" column="13" selection-start-line="20" selection-start-column="13" selection-end-line="20" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/AssertCalculatorTest.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="135">
+          <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/Calculator.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="75">
+          <caret line="5" column="13" selection-start-line="5" selection-start-column="13" selection-end-line="5" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/Person.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="30">
+          <caret line="2" column="13" selection-start-line="2" selection-start-column="13" selection-end-line="2" selection-end-column="13" />
+        </state>
+      </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/ReflectTest.java">
       <provider selected="true" editor-type-id="text-editor">
@@ -1182,17 +1090,176 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/GC.java">
+    <entry file="file://$PROJECT_DIR$/day10_File/src/Reflect/ReflectDemo01.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="180">
+        <state relative-caret-position="165">
+          <caret line="15" column="3" selection-start-line="15" selection-start-column="3" selection-end-line="15" selection-end-column="3" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12_html_css_javascript/javascript-02-BOM+DOM(事件).html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-2134" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12_html_css_javascript/javascript-04-DOM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1789" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12_html_css_javascript/javascript-05-动态表格案例.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1999" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12_html_css_javascript/javascript-06-HTML_DOM.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-1879" />
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12_html_css_javascript/javascript-07-表格全选案例.html">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day12_html_css_javascript/javascript-01-基础语法.html">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="229" column="52" selection-start-line="229" selection-start-column="52" selection-end-line="229" selection-end-column="52" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/Final/Demo01Final.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="25" lean-forward="true" selection-start-line="7" selection-start-column="25" selection-end-line="7" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07_character/src/Super/Demo01Static.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="270">
+          <caret line="18" column="62" selection-start-line="18" selection-start-column="62" selection-end-line="18" selection-end-column="62" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05_array/src/Demo01Math.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="48" selection-start-line="4" selection-start-column="48" selection-end-line="4" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day05_array/src/重载.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="5" selection-start-line="4" selection-start-column="5" selection-end-line="4" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07_character/src/array/Demo02Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="14" selection-start-line="14" selection-end-line="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/Date/Deno01Calendar.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="286">
+          <caret line="21" column="42" lean-forward="true" selection-start-line="21" selection-start-column="42" selection-end-line="21" selection-end-column="42" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/Abstract/AbstractInterface.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="195">
+          <caret line="13" column="54" selection-start-line="13" selection-start-column="54" selection-end-line="13" selection-end-column="54" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07_character/src/array/Demo01Array.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="225">
+          <caret line="15" column="47" selection-start-line="15" selection-start-column="47" selection-end-line="15" selection-end-column="47" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06_object/src/ObjectDemo01/Demo01Integer.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="60">
+          <caret line="4" column="41" lean-forward="true" selection-start-line="4" selection-start-column="41" selection-end-line="4" selection-end-column="41" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/InnerClass/Body.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="53" column="27" lean-forward="true" selection-start-line="53" selection-start-column="27" selection-end-line="53" selection-end-column="27" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day06_object/src/APIDemo02/Demo01ArrayList.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="232">
+          <caret line="18" column="33" selection-start-line="18" selection-start-column="33" selection-end-line="18" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07_character/src/Super/Demo01Super.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="315">
+          <caret line="22" column="70" lean-forward="true" selection-start-line="22" selection-start-column="70" selection-end-line="22" selection-end-column="70" />
+          <folding>
+            <element signature="imports" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/StringBuilder/Demo01stringBuilder.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="120">
+          <caret line="8" column="40" lean-forward="true" selection-start-line="8" selection-start-column="40" selection-end-line="8" selection-end-column="40" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day07_character/src/Super/Demo01String.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="255">
+          <caret line="17" column="75" selection-start-line="17" selection-start-column="75" selection-end-line="17" selection-end-column="75" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_File/src/IO/Demo01PrintStream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="155">
           <caret line="12" column="13" selection-start-line="12" selection-start-column="13" selection-end-line="12" selection-end-column="13" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/day09_Map&amp;Thread/src/ErrorException/Demo01Exception.java">
+    <entry file="file://$PROJECT_DIR$/day10_File/src/Stream/Demo01Printable.java">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="127">
-          <caret line="29" column="11" selection-start-line="29" selection-start-column="11" selection-end-line="29" selection-end-column="11" />
+        <state relative-caret-position="135">
+          <caret line="11" column="34" lean-forward="true" selection-start-line="11" selection-start-column="34" selection-end-line="11" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day10_File/src/Stream/Demo01Stream.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="735">
+          <caret line="69" lean-forward="true" selection-start-line="69" selection-end-line="69" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/FanXing/MyClass.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="105">
+          <caret line="7" column="13" selection-start-line="7" selection-start-column="13" selection-end-line="7" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/day08_extends/src/FanXing/Demo01.java">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="260">
+          <caret line="19" column="45" lean-forward="true" selection-start-line="19" selection-start-column="45" selection-end-line="19" selection-end-column="45" />
         </state>
       </provider>
     </entry>

@@ -18,8 +18,8 @@ public class Demo01Stream {
         //foreach01();
         //filter01();
         //map01();
-        //limit01();
-        concat01();
+        limit01();
+        //concat01();
     }
 
     public static void stream01(){

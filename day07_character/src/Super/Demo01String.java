@@ -13,8 +13,9 @@ package Super;
  * public String replace(CharSequence target, CharSequence replacement);public String replace(char oldChar, char newChar)
  * replaceAll方法：基于正则表达式的字符串替换
  * 4.String : final 修饰，String 类的方法都是返回 new String。即对 String 对象的任何改变都不影响到原对象，对字符串的修改操作都会生成新的对象。
- * StringBuffer : 对字符串的操作的方法都加了synchronized，保证线程安全。
+ * 5.StringBuffer : 对字符串的操作的方法都加了synchronized，保证线程安全。
  * StringBuilder : 不保证线程安全，在方法体内需要进行字符串的修改操作，可以 new StringBuilder 对象，调用 StringBuilder 对象的 append()、replace()、delete() 等方法修改字符串。
+ * 6.Java 编译器对字符串常量直接相加的表达式进行优化，不等到运行期去进行加法运算，在编译时就去掉了加号，直接将其编译成一个这些常量相连的结果
  */
 public class Demo01String {
     public static void main(String[] args){

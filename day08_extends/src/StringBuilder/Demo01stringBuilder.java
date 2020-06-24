@@ -5,6 +5,8 @@ package StringBuilder;
  * 2.StringBuilder类是一个字符串缓冲区，底层是一个没有被final修饰的byte[]，例如String s="a"+"b"+"c"只会产生一个字符串，容量不够还会扩容
  * 3.append(String str) 为StringBuilder对象添加字符串，地址值不变,reverse() 对StringBuilder对象内容进行反转
  * 4.StringBuilder-->String:使用StringBuilder的toString方法；String-->StringBuilder:使用StringBuilder的构造方法
+ * 5.String 是只读字符串，String 对象内容是不能被改变的;StringBuffer 和 StringBuilder 的字符串对象可以对字符串内容进行修改，在修改后的内存地址不会发生改变;
+ * StringBuilder 线程不安全；StringBuffer 线程安全
  */
 public class Demo01stringBuilder {
     public static void main(String[] args){

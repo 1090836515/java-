@@ -13,5 +13,9 @@ public class Demo02Array {
         System.out.println(intArray);
         System.out.println(Arrays.toString(intArray));
 
+
+
+
     }
+
 }

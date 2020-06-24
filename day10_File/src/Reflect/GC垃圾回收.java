@@ -9,6 +9,8 @@ package Reflect;
  * 6.垃圾回收机制回收任何对象之前，会先调用对象的 finalize() 方法
  * 7.可以通过 System.gc() 或 Runtime.getRuntime().gc() 通知系统进行垃圾回收，会有一些效果，但系统是否进行垃圾回收依然不确定
  * 8.不要主动调用对象的 finalize() 方法，应该交给垃圾回收机制调用
+ * 9.内存由 JVM 负责释放,程序员无法直接释放内存,垃圾回收时间不确定
  */
 public class GC垃圾回收 {
+
 }

@@ -12,7 +12,8 @@ import java.lang.reflect.Method;
  *  2.反射：将类的各个组成部分封装为其他对象,Method,Field,Constructor,可以在程序运行的过程中操作这些对象
  *  3.getFields(),getField();//只能获取public修饰的成员变量;  getDeclaredFields()：获取所有的成员变量，不考虑修饰符
  *  4.(Field)d.setAccessiable(true);//暴力反射,忽略访问权限修饰符的安全检查.强行获取私有成员变量
- *  5.看方法
+ *  5.getDeclaredFields(): 获取所有本类自己声明的属性, 不能获取父类和实现的接口中的属性
+ * getFields(): 只能获取所有 public 声明的属性, 包括获取父类和实现的接口中的属性
  */
 public class ReflectDemo01 {
     public static void main(String[] args) throws Exception {
