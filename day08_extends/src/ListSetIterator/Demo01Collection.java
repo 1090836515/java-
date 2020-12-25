@@ -15,6 +15,7 @@ import java.util.Iterator;
  * 6.      //接口               //实现类对象
  *         Iterator<String> it=coll.iterator();//取出集合的通用方法
  * 7.使用HashSet存储自定义类型要保证元素不重复，就必须重写equals和hashCode方法
+ * 8.LinkedList实现了Deque与List的接口，Deque继承Queue,是双端队列
  *
  */
 public class Demo01Collection {
