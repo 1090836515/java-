@@ -1,5 +1,8 @@
 package Map;
 
+import java.util.Collection;
+import java.util.Iterator;
+import java.util.Map;
 import java.util.*;
 
 /**
@@ -18,7 +21,7 @@ public class Demo01Map {
     }
 
     public static void keySet(){
-        Map<String,Integer> map=new HashMap<>();
+        Map<String,Integer> map = new java.util.HashMap<>();
         map.put("赵丽颖",168);
         map.put("杨颖",181);
         map.put("林志玲",178);
@@ -40,7 +43,7 @@ public class Demo01Map {
     }
 
     public static void entrySet(){
-        Map<String,Integer> map=new HashMap<>();
+        Map<String,Integer> map=new java.util.HashMap<>();
         map.put("赵丽颖",168);
         map.put("杨颖",181);
         map.put("林志玲",178);
