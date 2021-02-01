@@ -67,4 +67,8 @@ package Redis;
  * 6.压缩列表（list和hash，有序集合的底层实现之一）：如果list的每个都是小整数值，或者是比较短的字符串，压缩列表(ziplist)作为list的底层实现
  */
 public class Redis数据结构 {
+    public static void main(String[] args) {
+        System.out.println((2<<4) + (40>>2));
+    }
+
 }

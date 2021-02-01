@@ -1,6 +1,5 @@
-package IO;
+package OperatingSystem;
 
-import java.io.FileOutputStream;
 import java.io.FileReader;
 import java.io.FileWriter;
 import java.io.IOException;

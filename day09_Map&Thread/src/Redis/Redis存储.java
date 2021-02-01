@@ -1,8 +1,6 @@
 package Redis;
 
-import java.util.ArrayList;
-import java.util.Collections;
-import java.util.List;
+import java.util.*;
 
 /**
  * 1.为什么要用redis而不用map做缓存?
@@ -18,7 +16,7 @@ import java.util.List;
  *      (2：Redis的对象系统带有引用计数实现的内存回收机制。对象不再被使用的时候，对象所占用的内存会释放掉
  *      (3：Redis会共享值为0到9999的字符串对象
  *      (4：对象会记录自己的最后一次被访问时间，这个时间可以用于计算对象的空转时间
- * 4.Redis持久化：
+ * 4.Redis持久化：Redis 是单线程程序，这个线程要同时负责多个客户端套接字的并发读写操作和内存数据结构的逻辑读写。
  *      (1)RDB:通过创建快照来获得存储在内存里面的数据在某个时间点上的副本。Redis创建快照之后，可以对快照进行备份，可以将快照复制到其他服
  *      务器从而创建具有相同数据的服务器副本（Redis主从结构，主要用来提高Redis性能），还可以将快照留在原地以便重启服务器的时候使用。Redis
  *      默认采用的持久化方式.SAVE会阻塞Redis服务器进程，服务器不能接收任何请求，直到RDB文件创建完毕为止;BGSAVE创建出一个子进程，由子进程
@@ -53,5 +51,13 @@ import java.util.List;
  */
 public class Redis存储 {
     public static void main(String[] args) {
+    }
+    class TreeNode {
+        int val;
+        TreeNode left;
+        TreeNode right;
+        TreeNode(int x) {
+            this.val = x;
+        }
     }
 }

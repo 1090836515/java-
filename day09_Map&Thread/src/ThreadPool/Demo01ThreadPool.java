@@ -43,6 +43,11 @@ import java.util.concurrent.Executors;
  *      等到线程创建就能立即执行。提高线程的可管理性:线程是稀缺资源，如果无限制的创建，不仅会消耗系统资源，还会降低系统的稳定性，
  *      使用线程池可以进行统一的分配，调优和监控。
  * 10.阻塞队列的实现：
+ * 11.阻塞队列的API：
+ *      add()/remove()/remove:会抛异常的API；
+ *      offer()/poll()/peek():有返回值，不抛出异常的；
+ *      put/take():阻塞，一直等待；
+ *      offer(e,time,unit)/poll(time,unit):阻塞，当到了预定的超时时间，退出。
  *
  */
 public class Demo01ThreadPool {

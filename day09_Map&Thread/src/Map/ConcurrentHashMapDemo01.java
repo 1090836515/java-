@@ -19,7 +19,7 @@ import org.junit.Assert;
  *      桶中的结点的hash值与key值与给定的hash值和key值相等，则根据标识选择是否进行更新操作（用给定的value值），否则插入
  *      尾部
  */
-public class ConcurrentHashMap {
+public class ConcurrentHashMapDemo01 {
     public static void main(String[] args) {
     }
 }

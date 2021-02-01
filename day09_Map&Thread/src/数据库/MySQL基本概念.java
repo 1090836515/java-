@@ -1,5 +1,7 @@
 package 数据库;
 
+import java.util.ArrayList;
+
 /**
  * 1.存储过程：存储过程就像我们编程语言中的函数一样，优点：封装了我们的代码。能够将代码封装起来保存在数据库之中让编程语言进行调用，存储过程
  *      是一个预编译的代码块，执行效率比较高。缺点：每个数据库的存储过程语法几乎都不一样，十分难以维护（不通用）；业务逻辑放在数据库上，难以
@@ -36,6 +38,36 @@ package 数据库;
  *          下工作;MVCC可以使用乐观(optimistic)锁和悲观(pessimistic)锁来实现;各数据库中MVCC实现并不统一；存储结构为B+树，只不过
  *          数据结构中存储的都是实际的数据，这种索引有被称为聚集索引；另外也支持哈希索引
  *      （3）MEMORY引擎：所有的数据都在内存中，数据的处理速度快，但是安全性不高
+ * 8.redo log与binlog（binary）的区别：
+ *      1.redo log 是物理日志，记录的是“在某个数据页上做了什么修改”；binlog 是逻辑日志，记录的是这个语句的原始逻辑，statement格式记录的是sql语句，
+ *              row格式记录的是行的内容，记两条，更新前和更新后的都有，记录的是比如“给 ID=2 这一行的 c 字段加 1 ”。
+ *      2.redo log 是循环写的，，不持久保存，空间固定会用完；binlog 是可以追加写入的。“追加写”是指 binlog 文件写到一定大小后会切换到下一个，并不会覆盖以前的日志。
+ *      3.redo log 是 InnoDB 引擎特有的；binlog 是 MySQL 的 Server 层实现的，所有引擎都可以使用。
  */
 public class MySQL基本概念 {
+    public static void main(String[] args) {
+        int[] input = {4,5,1,6,2,7,3,8};
+        int k = 4;
+        ArrayList<Integer> arrayList = GetLeastNumbers_Solution(input, k);
+        for(int i : arrayList) {
+            System.out.println(i);
+        }
+    }
+
+    public static ArrayList<Integer> GetLeastNumbers_Solution(int [] input, int k) {
+        ArrayList<Integer> res = new ArrayList<Integer>();
+        for(int i = 0; i < input.length - 1; i++) {
+            for(int j = 0; j < input.length - i - 1; j++) {
+                if(input[j] > input[j+1]) {
+                    int tmp = input[j];
+                    input[j] = input[j+1];
+                    input[j+1] = tmp;
+                }
+            }
+        }
+        for(int m = 0; m < k; m++) {
+            res.add(input[m]);
+        }
+        return res;
+    }
 }
