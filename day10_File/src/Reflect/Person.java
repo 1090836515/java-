@@ -1,6 +1,6 @@
 package Reflect;
 
-public class Person {
+public class Person implements Cloneable{
     private String name;
     private int age;
 

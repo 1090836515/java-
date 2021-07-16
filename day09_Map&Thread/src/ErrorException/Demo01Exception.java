@@ -3,7 +3,8 @@ package ErrorException;
 import java.util.Stack;
 
 /**
- * Throwable下继承了Error与Exception两个子类，Error属于严重的错误，程序不能处理；Exception错误程序可以处理（编译期异常）
+ * Throwable下继承了Error与Exception两个子类，Error属于代表JVM本身的错误，处理程序运行环境方面的异常，程序不能处理(OutOfMemoryError)；
+ *      Exception错误程序可以处理（编译期异常）(IOException、SQLException、RuntimeException)
  * 2.Exception：编译期异常
  *       RunException:运行异常
  * 3.将异常抛出（throws）是给虚拟机处理，而虚拟机处理异常的方式通常是中断处理，后续代码不执行；而通过try catch方式后续代码（try之外的代码）也会正常执行
@@ -22,10 +23,13 @@ import java.util.Stack;
  */
 public class Demo01Exception {
 
-    public static void main(String[] args){
+    private static Object Exception;
+
+    public static void main(String[] args) {
         String a="}";
         //System.out.println(addBinary(a));
-
+           int i = 1 / 0;
+           System.out.println(5);
     }
     /*private static boolean addBinary(String a) {
         Stack<Character> s=new Stack<>();

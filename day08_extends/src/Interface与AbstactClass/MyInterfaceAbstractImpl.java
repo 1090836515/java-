@@ -1,4 +1,4 @@
-package Interface;
+package Interface与AbstactClass;
 
 public class MyInterfaceAbstractImpl implements MyInterfaceAbstract {
     @Override

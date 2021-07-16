@@ -1,4 +1,4 @@
-package Super;
+package toStringEquals;
 
 /**
  * 1.字符串效果上相当于char[]字符数组，但是底层原理是byte[]字节数组
@@ -19,7 +19,7 @@ package Super;
  */
 public class Demo01String {
     public static void main(String[] args){
-        String str1=new String();//空参构造，不含内容
+        /*String str1=new String();//空参构造，不含内容
 
         char[] charArray={'a','b','c'};
         String str2=new String(charArray);//根据字符数组创建
@@ -61,6 +61,21 @@ public class Demo01String {
         String[] array1=str10.split("\\.");
         for (int i=0;i<array1.length;i++){
             System.out.println(array1[i]);
-        }
+        }*/
+
+        /*String a = "hello2";
+        String b = "hello";
+        String c = b + "2";
+        String d = "hello2";
+        System.out.println(c);
+        System.out.println(a == c);
+        System.out.println(a == d);*/
+
+        char[] s = {'1', '2', '3'};
+        s[0] = '5';
+        char[] r = {'a', 'b', 'c'};
+        s = r;
+        System.out.println(s);
+
     }
 }

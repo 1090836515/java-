@@ -2,6 +2,8 @@ package Map;
 
 import org.junit.Assert;
 
+import java.util.HashMap;
+
 /**
  * 1.CAS:旧的值A,预期值B,修改值C,只有当A与B相同时才修改为C,否则不做任何修改；多线程同时操作时，只有一个线程能修改成功，是乐观锁、
  *      自旋锁。
@@ -21,5 +23,6 @@ import org.junit.Assert;
  */
 public class ConcurrentHashMapDemo01 {
     public static void main(String[] args) {
+        HashMap<String, Integer> map = new HashMap<>();
     }
 }

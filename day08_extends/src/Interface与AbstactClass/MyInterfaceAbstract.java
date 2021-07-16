@@ -1,4 +1,4 @@
-package Interface;
+package Interface与AbstactClass;
 
 /**
  * 1.接口就是多个类的公共规范，最重要的就是其中的抽象方法

@@ -16,5 +16,6 @@ public class Demo01Thread {
             System.out.println("main:"+i);
         }
         new MyThread("小强").start();
+        new MyThread("df").run();
     }
 }

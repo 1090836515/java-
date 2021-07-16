@@ -20,6 +20,12 @@ import java.util.Objects;
  * 但执行p1.hashCode()==p2.hashCode()结果却是false，这与“两个对象相等，其hashcode必然相等”矛盾，所以重写了equals()必然需要重写hashcode()。
  * 　　hashcode()判断是equals()判断的先决条件，所以对象重写了equals()需要重写hashcode()
  *    hashCode 方法的常规协定声明相等对象必须具有相等的哈希码 　
+ * 5.HashCode()（效率高）相等，equals()（效率低）并不一定相等；反过来equals()比较相等，则hashCode()一定相等；
+ *      重写了equals(重写前效果等同于==，重写后比较两个对象的值，==在基本数据类型时比较的是值，基本数据类型不能调用方法，在引用类型时比较的是地址)，
+ *      则必须重写hashCode。所以一般先比较hash，若不等，则不用比了；若相等再比较equals，两个都相等才说明两者对象相同。
+ *      重写equals方法的目的是判断两个对象的内容(内容可以有很多，比如同时比较姓名和年龄，同时相同的才是用一个对象)是否相同。
+ *      (1)当obj1.equals(obj2)为true时，obj1.hashCode() == obj2.hashCode()必须为true（规定）
+ *      (2)当obj1.hashCode() == obj2.hashCode()为false时，obj1.equals(obj2)必须为false
  */
 public class Demo01toString {
     public static void main(String[] args){

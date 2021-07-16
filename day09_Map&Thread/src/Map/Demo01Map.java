@@ -15,13 +15,15 @@ import java.util.*;
  * 6.map.values();//把Map集合中的值存到Collection集合中，map.entrySet();//返回键值对的映射关系，map.keySet();//返回所有的键
  */
 public class Demo01Map {
-    public static void main(String[] args){
+    public static void main(String[] args) {
         keySet();
         entrySet();
     }
 
     public static void keySet(){
         Map<String,Integer> map = new java.util.HashMap<>();
+        map.put(null, null);
+        map.put(null, 555);
         map.put("赵丽颖",168);
         map.put("杨颖",181);
         map.put("林志玲",178);

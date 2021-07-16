@@ -2,6 +2,7 @@ package ThreadPool;
 
 import java.util.concurrent.ExecutorService;
 import java.util.concurrent.Executors;
+import java.util.concurrent.Future;
 
 /**
  * 1.线程池参数：corePoolSize：核心线程数；maximumPoolSize：线程池的最大线程数；keepAliveTime：核心线程数之外的线程，最大空闲存活的时长；
@@ -30,8 +31,9 @@ import java.util.concurrent.Executors;
  *      3.ScheduledThreadPool：初始化的线程可以在指定的时间内周期性的执行所提交的任务，适合使用在执行定时任务和具体固定周期的重复任务。
  *      4.SingleThreadPool：初始化只有一个线程的线程池，如果线程异常结束，则会重新创建一个新的线程继续执行任务，适合使用在多个任务顺序执行的场景。
  * 6.实现Runnable接口和Callable接口的区别：Runnable接口或Callable接口实现类都可以被ThreadPoolExecutor,
- *      或ScheduledThreadPoolExecutor执行；call方法可以抛出异常，run方法不可以；Callable规定的方法是call(),Runnable规定的方法
- *      是run()；两者的区别在于 Runnable 接口不会返回结果但是 Callable 接口可以返回结果。
+ *      或ScheduledThreadPoolExecutor执行；两者最大的不同点是：实现Callable接口的任务线程能返回执行结果；而实现Runnable接口的任务线程不能返回结果；
+ *      Callable接口的call()方法允许抛出异常；而Runnable接口的run()方法的异常只能在内部消化，不能继续上抛;Callable接口支持返回执行结果，
+ *      此时需要调用FutureTask.get()方法实现，此方法会阻塞主线程直到获取‘将来’结果；当不调用此方法时，主线程不会阻塞！
  * 7.执行execute()方法和submit()方法的区别：execute() 方法用于提交不需要返回值的任务，所以无法判断任务是否被线程池执行成功与否；
  *      submit() 方法用于提交需要返回值的任务。线程池会返回一个Future类型的对象，通过这个Future对象可以判断任务是否执行成功，
  *      并且可以通过future的get()方法来获取返回值。
@@ -56,8 +58,9 @@ public class Demo01ThreadPool {
         ExecutorService es = Executors.newFixedThreadPool(2);
         //调用submit方法,传递线程任务，开启线程，执行run方法
         es.submit(new RunnableImpl());
-        es.submit(new RunnableImpl());
-        es.submit(new RunnableImpl());
+        Future<?> submit1 = es.submit(new RunnableImpl());
+        Future submit = es.submit(new CallableImpl());
+        es.execute(new RunnableImpl());
         //销毁线程池
         es.shutdown();
     }

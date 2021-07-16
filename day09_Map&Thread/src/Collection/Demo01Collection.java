@@ -1,8 +1,6 @@
 package Collection;
 
-import java.util.ArrayList;
-import java.util.Collection;
-import java.util.Iterator;
+import java.util.*;
 
 /**
  * 1.vector,ArrayList,Linkedlist继承List接口,vector是单线程的，速度很慢;  TreeSet,HashSet,LinkedHashSet继承Set接口;
