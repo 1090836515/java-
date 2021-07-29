@@ -1,5 +1,6 @@
 package JVM;
 
+import java.lang.ref.SoftReference;
 import java.lang.ref.WeakReference;
 
 /**
@@ -29,14 +30,24 @@ import java.lang.ref.WeakReference;
  * 5.强软弱虚引用：
  *      （1）强引用：Object object = new Object();如果一个对象具有强引用，那就类似于必不可少的生活用品，垃圾回收器绝不会回收它。当内存空间不足，
  *              Java 虚拟机宁愿抛出 OutOfMemoryError 错误，使程序异常终止，也不会靠随意回收具有强引用的对象来解决内存不足问题。
- *      (2)软引用：只有当内存不够用的时候才会回收它，软引用可用来实现内存敏感的高速缓存
- *     （3）弱引用：不管内存够不够，只要gc时发现了它就会回收。WeakReference
+ *      (2)软引用：只有当内存不够用的时候才会回收它，软引用可以很好地用来解决OOM的问题，并且这个特性很适合用来实现缓存：比如网页缓存、图片缓存等。
+ *              (SoftReference<String> sr = new SoftReference(new String("123"));)
+ *     （3）弱引用：不管内存够不够，只要gc时发现了它就会回收。WeakReference，弱引用可以和一个引用队列（ReferenceQueue）联合使用 (WeakReference<String> wr = new WeakReference(new String("123"));)
  *      (4)虚引用：不管是否回收都找不到引用的对象，仅用于管理直接内存；无论是否回收都获取不到引用的对象，虚引用必须和引用队列（ReferenceQueue）联合使用；
  *          程序可以通过判断引用队列中是否已经加入了虚引用，来了解被引用的对象是否将要被垃圾回收。程序如果发现某个虚引用已经被加入到引用队列，
  *          那么就可以在所引用的对象的内存被回收之前采取必要的行动。
+ * 6.判断对象是否死亡：
+ *      1.引用计数法：给对象中添加一个引用计数器，每当有一个地方引用它，计数器就加1；当引用失效，计数器就减1，引用数为0就说明对象死亡，
+ *           缺点是它很难解决对象之间相互循环引用的问题
+ *      2.可达性分析算法：通过一系列的称为 “GC Roots” 的对象作为起点，从这些节点开始向下搜索，节点所走过的路径称为引用链，当一个对象到
+ *          GC Roots 没有任何引用链相连的话，则证明此对象是不可用的
+ *      3.GC Roots的对象包括：虚拟机栈(栈帧中的本地变量表)中引用的对象、本地方法栈(Native 方法)中引用的对象、方法区中类静态属性引用的对象
+ *          方法区中常量引用的对象、所有被同步锁持有的对象
  */
 public class JVM垃圾回收 {
     public static void main(String[] args) {
-
+        SoftReference<String> soft = new SoftReference<>(new String("aabbcc"));
+        String s = soft.get();
+        System.out.println(s);
     }
 }

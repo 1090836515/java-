@@ -20,27 +20,30 @@
   </component>
   <component name="ChangeListManager">
     <list default="true" id="360c970c-b66b-40ac-85a4-7f4525469b0d" name="Default" comment="更新一些内容">
-      <change afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Collection/Iterator迭代器.java" afterDir="false" />
-      <change afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ThreadPool/CallableImpl.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/compiler.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/.idea/jarRepositories.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream_Media_Service/Stream_Media_Service.iml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream_Media_Service/pom.xml" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/Stream_Media_Service/src/main/java/DevicePlayVideoRefTask.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/CAS.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/OperatingSystem/变量的线程安全问题.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ThreadPool/ThreadPoolUtil.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/WebSocketDemo1.java" afterDir="false" />
+      <change afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/进程与线程与TCP连接.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/misc.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/misc.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.idea/modules.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/modules.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day07_character/src/Super/Demo01String.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/toStringEquals/Demo01String.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_extends/src/Final/Demo01Final.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_extends/src/Final/Demo01Final.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_extends/src/Interface/Demo01Interface.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_extends/src/Interface与AbstactClass/Demo01Interface.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_extends/src/Interface/MyInterfaceAbstract.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_extends/src/Interface与AbstactClass/MyInterfaceAbstract.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_extends/src/Interface/MyInterfaceAbstractImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day08_extends/src/Interface与AbstactClass/MyInterfaceAbstractImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day08_extends/src/toStringEquals/Demo01toString.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/toStringEquals/Demo01toString.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Collection/Demo01Collection.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Collection/Demo01Collection.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ErrorException/Demo01Exception.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ErrorException/Demo01Exception.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/ConcurrentHashMapDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/ConcurrentHashMapDemo01.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/Demo01Map.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/Demo01Map.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/HashMapDemo01.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/HashMapDemo01.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/JVM/JVM内存划分.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/JVM/JVM内存划分.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/JVM/JVM垃圾回收.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/JVM/JVM垃圾回收.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/ThreadLocal.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/ThreadLocalDemo1.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/Volatile.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/Volatile.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/synchronized与lock.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/synchronized与lock.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Demo01Runnable.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Demo01Runnable.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Demo01Thread.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Thread/Demo01Thread.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/锁分类.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/Map/锁分类.java" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ThreadPool/Demo01ThreadPool.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ThreadPool/Demo01ThreadPool.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ThreadPool/RunnableImpl.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/ThreadPool/RunnableImpl.java" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/day10_File/src/Reflect/Person.java" beforeDir="false" afterPath="$PROJECT_DIR$/day10_File/src/Reflect/Person.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/Http.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/Http.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/TCP与UDP.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/TCP与UDP.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/网络分层.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/网络分层.java" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/网络编程.java" beforeDir="false" afterPath="$PROJECT_DIR$/day09_Map&amp;Thread/src/计算机网络/网络编程.java" afterDir="false" />
     </list>
     <option name="SHOW_DIALOG" value="false" />
     <option name="HIGHLIGHT_CONFLICTS" value="true" />
@@ -120,7 +123,7 @@
       <recent name="E:\javaDevelopment\basic-code\day12_html_css_javascript\bootstrap" />
     </key>
   </component>
-  <component name="RunManager" selected="Application.HashMapDemo01">
+  <component name="RunManager" selected="Application.JVM内存划分">
     <configuration name="Demo01Map" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
       <option name="MAIN_CLASS_NAME" value="Map.Demo01Map" />
       <module name="day09_Map&amp;Thread" />
@@ -128,20 +131,6 @@
       <extension name="coverage">
         <pattern>
           <option name="PATTERN" value="Map.*" />
-          <option name="ENABLED" value="true" />
-        </pattern>
-      </extension>
-      <method v="2">
-        <option name="Make" enabled="true" />
-      </method>
-    </configuration>
-    <configuration name="Demo01String" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="toStringEquals.Demo01String" />
-      <module name="day09_Map&amp;Thread" />
-      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
-      <extension name="coverage">
-        <pattern>
-          <option name="PATTERN" value="toStringEquals.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -177,13 +166,27 @@
         <option name="Make" enabled="true" />
       </method>
     </configuration>
-    <configuration name="StringB" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
-      <option name="MAIN_CLASS_NAME" value="Collection.StringB" />
+    <configuration name="JVM垃圾回收" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.JVM垃圾回收" />
       <module name="day09_Map&amp;Thread" />
       <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
       <extension name="coverage">
         <pattern>
-          <option name="PATTERN" value="Collection.*" />
+          <option name="PATTERN" value="JVM.*" />
+          <option name="ENABLED" value="true" />
+        </pattern>
+      </extension>
+      <method v="2">
+        <option name="Make" enabled="true" />
+      </method>
+    </configuration>
+    <configuration name="JVM内存划分" type="Application" factoryName="Application" temporary="true" nameIsGenerated="true">
+      <option name="MAIN_CLASS_NAME" value="JVM.JVM内存划分" />
+      <module name="day09_Map&amp;Thread" />
+      <option name="WORKING_DIRECTORY" value="$PROJECT_DIR$" />
+      <extension name="coverage">
+        <pattern>
+          <option name="PATTERN" value="JVM.*" />
           <option name="ENABLED" value="true" />
         </pattern>
       </extension>
@@ -276,19 +279,19 @@
       </method>
     </configuration>
     <list>
-      <item itemvalue="Application.Demo01String" />
-      <item itemvalue="Application.StringB" />
       <item itemvalue="Application.Demo01Map" />
       <item itemvalue="Application.Iterator迭代器" />
       <item itemvalue="Application.HashMapDemo01" />
+      <item itemvalue="Application.JVM垃圾回收" />
+      <item itemvalue="Application.JVM内存划分" />
     </list>
     <recent_temporary>
       <list>
+        <item itemvalue="Application.JVM内存划分" />
+        <item itemvalue="Application.JVM垃圾回收" />
         <item itemvalue="Application.HashMapDemo01" />
         <item itemvalue="Application.Iterator迭代器" />
         <item itemvalue="Application.Demo01Map" />
-        <item itemvalue="Application.StringB" />
-        <item itemvalue="Application.Demo01String" />
       </list>
     </recent_temporary>
   </component>
@@ -387,7 +390,7 @@
       <workItem from="1623502019903" duration="3302000" />
       <workItem from="1623590352513" duration="1858000" />
       <workItem from="1625831401329" duration="1722000" />
-      <workItem from="1625906192719" duration="23637000" />
+      <workItem from="1625906192719" duration="70061000" />
     </task>
     <task id="LOCAL-00001" summary="更新一些内容">
       <created>1592925170424</created>
@@ -438,7 +441,14 @@
       <option name="project" value="LOCAL" />
       <updated>1612206480060</updated>
     </task>
-    <option name="localTasksCounter" value="8" />
+    <task id="LOCAL-00008" summary="更新一些内容">
+      <created>1626426875666</created>
+      <option name="number" value="00008" />
+      <option name="presentableId" value="LOCAL-00008" />
+      <option name="project" value="LOCAL" />
+      <updated>1626426875666</updated>
+    </task>
+    <option name="localTasksCounter" value="9" />
     <servers />
   </component>
   <component name="TypeScriptGeneratedFilesManager">
@@ -477,26 +487,26 @@
       <screen x="0" y="0" width="1536" height="864" />
     </state>
     <state x="549" y="175" key="FileChooserDialogImpl/0.0.1536.864@0.0.1536.864" timestamp="1623590330451" />
-    <state width="746" height="154" key="GridCell.Tab.0.bottom" timestamp="1626177603768">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="746" height="154" key="GridCell.Tab.0.bottom" timestamp="1627467174877">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626177603768" />
-    <state width="1493" height="164" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1623590336416" />
-    <state width="746" height="154" key="GridCell.Tab.0.center" timestamp="1626177603768">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="746" height="154" key="GridCell.Tab.0.bottom/0.0.1536.824@0.0.1536.824" timestamp="1626429331836" />
+    <state width="746" height="154" key="GridCell.Tab.0.bottom/0.0.1536.864@0.0.1536.864" timestamp="1627467174877" />
+    <state width="746" height="154" key="GridCell.Tab.0.center" timestamp="1627467174876">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626177603768" />
-    <state width="1493" height="164" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1623590336416" />
-    <state width="746" height="154" key="GridCell.Tab.0.left" timestamp="1626177603768">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="746" height="154" key="GridCell.Tab.0.center/0.0.1536.824@0.0.1536.824" timestamp="1626429331836" />
+    <state width="746" height="154" key="GridCell.Tab.0.center/0.0.1536.864@0.0.1536.864" timestamp="1627467174876" />
+    <state width="746" height="154" key="GridCell.Tab.0.left" timestamp="1627467174876">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626177603768" />
-    <state width="1493" height="164" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1623590336416" />
-    <state width="746" height="154" key="GridCell.Tab.0.right" timestamp="1626177603768">
-      <screen x="0" y="0" width="1536" height="824" />
+    <state width="746" height="154" key="GridCell.Tab.0.left/0.0.1536.824@0.0.1536.824" timestamp="1626429331836" />
+    <state width="746" height="154" key="GridCell.Tab.0.left/0.0.1536.864@0.0.1536.864" timestamp="1627467174876" />
+    <state width="746" height="154" key="GridCell.Tab.0.right" timestamp="1627467174877">
+      <screen x="0" y="0" width="1536" height="864" />
     </state>
-    <state width="746" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626177603768" />
-    <state width="1493" height="164" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1623590336416" />
+    <state width="746" height="154" key="GridCell.Tab.0.right/0.0.1536.824@0.0.1536.824" timestamp="1626429331836" />
+    <state width="746" height="154" key="GridCell.Tab.0.right/0.0.1536.864@0.0.1536.864" timestamp="1627467174877" />
     <state width="746" height="258" key="GridCell.Tab.1.bottom" timestamp="1626176616634">
       <screen x="0" y="0" width="1536" height="824" />
     </state>
@@ -513,17 +523,28 @@
       <screen x="0" y="0" width="1536" height="824" />
     </state>
     <state width="746" height="258" key="GridCell.Tab.1.right/0.0.1536.824@0.0.1536.824" timestamp="1626176616634" />
-    <state x="563" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1623590357578">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2" timestamp="1626426938610">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="361" y="145" key="Vcs.Push.Dialog.v2/0.0.1536.824@0.0.1536.824" timestamp="1626426938610" />
+    <state x="563" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2" timestamp="1626426865229">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="563" y="329" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.824@0.0.1536.824" timestamp="1626426865229" />
     <state x="563" y="345" key="com.intellij.openapi.vcs.update.UpdateOrStatusOptionsDialogupdate-v2/0.0.1536.864@0.0.1536.864" timestamp="1623590357578" />
-    <state x="468" y="164" width="600" height="536" key="find.popup" timestamp="1623577539745">
-      <screen x="0" y="0" width="1536" height="864" />
+    <state x="468" y="156" width="600" height="594" key="find.popup" timestamp="1626428983574">
+      <screen x="0" y="0" width="1536" height="824" />
     </state>
+    <state x="468" y="156" width="600" height="594" key="find.popup/0.0.1536.824@0.0.1536.824" timestamp="1626428983574" />
     <state x="468" y="164" width="600" height="536" key="find.popup/0.0.1536.864@0.0.1536.864" timestamp="1623577539745" />
-    <state x="431" y="181" width="672" height="678" key="search.everywhere.popup" timestamp="1623577585531">
+    <state x="178" y="93" key="new project wizard" timestamp="1627550054867">
       <screen x="0" y="0" width="1536" height="864" />
     </state>
+    <state x="178" y="93" key="new project wizard/0.0.1536.864@0.0.1536.864" timestamp="1627550054867" />
+    <state x="431" y="173" width="672" height="647" key="search.everywhere.popup" timestamp="1626428976637">
+      <screen x="0" y="0" width="1536" height="824" />
+    </state>
+    <state x="431" y="173" width="672" height="647" key="search.everywhere.popup/0.0.1536.824@0.0.1536.824" timestamp="1626428976637" />
     <state x="431" y="181" width="672" height="678" key="search.everywhere.popup/0.0.1536.864@0.0.1536.864" timestamp="1623577585531" />
   </component>
   <component name="XDebuggerManager">
